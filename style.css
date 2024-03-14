@@ -12,3 +12,23 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.category-card {
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    background-color: rgb(202, 202, 202);
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 10px;
+}
