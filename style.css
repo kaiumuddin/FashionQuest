@@ -1,0 +1,14 @@
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: contain;
+}
+.carousel {
+    background: url("./resources/vivid-blurred-colorful-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
